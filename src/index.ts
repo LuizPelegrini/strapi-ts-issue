@@ -10,8 +10,8 @@ export default {
    * This gives you an opportunity to extend code.
    */
   register(/* { strapi }: { strapi: Core.Strapi } */) {
-    const post: Data.ContentType<'api::post.post'>
-    post.
+    let post: Data.ContentType<'api::post.post'>
+    const title = post.seo.title
   },
 
   /**
