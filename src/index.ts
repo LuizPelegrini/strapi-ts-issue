@@ -1,5 +1,7 @@
 // import type { Core } from '@strapi/strapi';
 
+import type { Data } from "@strapi/strapi";
+
 export default {
   /**
    * An asynchronous register function that runs before
@@ -7,7 +9,10 @@ export default {
    *
    * This gives you an opportunity to extend code.
    */
-  register(/* { strapi }: { strapi: Core.Strapi } */) {},
+  register(/* { strapi }: { strapi: Core.Strapi } */) {
+    const post: Data.ContentType<'api::post.post'>
+    post.
+  },
 
   /**
    * An asynchronous bootstrap function that runs before
