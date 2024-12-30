@@ -9,10 +9,7 @@ export default {
    *
    * This gives you an opportunity to extend code.
    */
-  register(/* { strapi }: { strapi: Core.Strapi } */) {
-    let post: Data.ContentType<'api::post.post'>
-    const title = post.seo.title
-  },
+  register(/* { strapi }: { strapi: Core.Strapi } */) {},
 
   /**
    * An asynchronous bootstrap function that runs before
